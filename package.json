@@ -1,0 +1,23 @@
+{
+  "name": "12-SQLite_create_db",
+  "version": "1.0.0",
+  "description": "SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMcL/12-SQLite_create_db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMcL/12-SQLite_create_db/issues"
+  },
+  "homepage": "https://github.com/LucasMcL/12-SQLite_create_db#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
