@@ -5,6 +5,6 @@
     { "id": "3", "firstName": "Jim", "lastName": "Halpert", "salary": 55000, "dept": "sales" },
     { "id": "4", "firstName": "Pam", "lastName": "Beesly", "salary": 52000, "dept": "reception" },
     { "id": "5", "firstName": "Michael", "lastName": "Scott", "salary": 60000, "dept": "management" },
-    { "id": "6", "firstName": "Stanley", "lastName": "Hudson", "salary": 55000, "dept": "unknown" }
+    { "id": "6", "firstName": "Stanley", "lastName": "Hudson", "salary": 5500000, "dept": "unknown" }
   ]
 }

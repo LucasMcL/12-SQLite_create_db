@@ -5,7 +5,7 @@
 const sqlite3 = require('sqlite3').verbose()
 const db = new sqlite3.Database('example.sqlite')
 
-db.run("CREATE TABLE IF NOT EXISTS employees (id INT, first TEXT, last TEXT, salary NUM(6, 2), department TEXT)")
+db.run("CREATE TABLE IF NOT EXISTS employees (id INT, first TEXT, last TEXT, salary NUM(4, 2), department TEXT)")
 
 const populateEmployees = function() {
 	const {list} = require('./employees.json')
@@ -21,7 +21,7 @@ const populateEmployees = function() {
 	})
 }
 
-// populateEmployees()
+populateEmployees()
 
 // only returns first match
 // db.get(`SELECT  * FROM employees`, (err, row) => {
